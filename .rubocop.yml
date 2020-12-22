@@ -1,0 +1,29 @@
+AllCops:
+  Exclude:
+    - 'lib/generators/api_guard/controllers/templates/*'
+    - 'spec/dummy/db/schema.rb'
+
+Rails:
+  Enabled: true
+
+Metrics/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 30
+
+Metrics/MethodLength:
+  Max: 15
+
+Style/SymbolArray:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented_relative_to_receiver
