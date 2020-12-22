@@ -6,10 +6,10 @@ require 'api_guard/version'
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = 'api_guard_grape'
-  s.version     = ApiGuardGrape::VERSION
+  s.version     = ApiGuard::VERSION
   s.authors     = ['Prateek Singh']
   s.email       = ['prateekbundela87@gmail.com']
-  s.homepage    = 'https://github.com/prateeksinghbundela/api_guard'
+  s.homepage    = 'https://github.com/prateeksinghbundela/api_guard_grape'
   s.summary     = 'Rails API authentication made easy'
   s.description = 'JWT authentication solution for Rails APIs'
   s.license     = 'MIT'
